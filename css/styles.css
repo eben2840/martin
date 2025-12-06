@@ -3370,7 +3370,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 400px) {
     .intro-content .text-huge-title {
-        font-size   : var(--text-lg);
+        font-size   : 30px;
         line-height : var(--vspace-0.5);
     }
 
