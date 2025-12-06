@@ -1551,10 +1551,10 @@ hr.fancy::before {
  * -------------------------------------------------------------------- */
 .lead,
 .attention-getter {
-    font-family : var(--font-3);
-    font-weight : 300;
+    font-family : var(--font-1);
+    font-weight : 200;
     font-size   : var(--text-md);
-    line-height : var(--vspace-1_25);
+    line-height : var(--vspace-1_20);
     color       : var(--color-text-dark);
 }
 
@@ -4050,7 +4050,7 @@ img.u-pull-left {
 
 .contact-bottom {
     padding-bottom : var(--vspace-3);
-    margin-top     : var(--vspace-3);
+    /* margin-top     : var(--vspace-3); */
     border-bottom  : 1px solid var(--color-border);
 }
 
@@ -4129,7 +4129,7 @@ img.u-pull-left {
 
 .s-footer {
     margin-top     : auto;
-    padding-top    : var(--vspace-1);
+    /* padding-top    : var(--vspace-1); */
     padding-bottom : var(--vspace-3);
     color          : var(--color-text-light);
 }
