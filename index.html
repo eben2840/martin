@@ -91,7 +91,7 @@
                             Information Security Manager
                         </div>
 
-                        <h1 class="h3 text-huge-title">
+                        <h1 class="h5 text-huge-title">
                             Designing Security <br>
                             Architechture<br>
                             That Transforms <br> 
@@ -103,9 +103,9 @@
 
                     <ul class="intro-social">
                         <!-- <li><a href="#0">Behance</a></li> -->
-                        <li><a href="#0">Podcast</a></li>
+                        <!-- <li><a href="#0">Podcast</a></li> -->
                         <li><a href="https://www.linkedin.com/in/martin-a-258b5921a/?profileId=ACoAADdX9yQBeC1sh70rSYp-JFfQ0zCnHVNLQ9s">LinkedIn</a></li>
-                        <li><a href="#0">Resume</a></li>
+                        <li><a href="MARTIN__AGGREY-MILLS_-_Information_Security_Manager,_CISA,_CISM,_CISSP.pdf">Resume</a></li>
                     </ul>
 
                 </div> <!-- end intro content -->
@@ -219,8 +219,28 @@
                                 Let's evolve security together!
                             </h5>
 
-                            <a href="MARTIN__AGGREY-MILLS_-_Information_Security_Manager,_CISA,_CISM,_CISSP.pdf" class="btn btn--medium u-fullwidth" data-animate-el download>Download CV</a>
-                        
+                            <!-- <a href="Martin Aggrey-Mills Resume.pdf" class="btn btn--medium u-fullwidth" data-animate-el download>Download CV</a>
+                         -->
+                         <a href="#" id="downloadCV" class="btn btn--medium u-fullwidth">Download CV</a>
+
+                         <script>
+                         document.getElementById("downloadCV").addEventListener("click", function (e) {
+                             e.preventDefault();
+                         
+                             // First file
+                             const file1 = document.createElement("a");
+                             file1.href = "Martin Aggrey-Mills Cover Letter.pdf";
+                             file1.download = "Martin Aggrey-Mills Cover Letter.pdf";
+                             file1.click();
+                         
+                             // Second file
+                             const file2 = document.createElement("a");
+                             file2.href = "Martin Aggrey-Mills Resume.pdf";
+                             file2.download = "Martin Aggrey-Mills Resume.pdf";
+                             file2.click();
+                         });
+                         </script>
+                         
                         </div>
                     </div>
                 </div> <!-- about-info -->
@@ -385,7 +405,7 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">Designing Microsoft Azure Infrastructure solutions </h4>
+                                    <h5 class="timeline__title">Designing Microsoft Azure Infrastructure solutions </h4>
                                     <h5 class="timeline__meta">Microsoft</h5>
                                     <p class="timeline__timeframe"></p>
                                 </div>
